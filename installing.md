@@ -8,8 +8,13 @@
 
 [http://www.smartquant.com/downloads.html ](http://www.smartquant.com/downloads.html)
 
+也可以注册在线版本QuantWeb直接进行在线测试。
+
+* ### OpenQuant软件的安装
+
+### 
 
 
-* 
+
 
 
