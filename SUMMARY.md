@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Installing](installing.md)
+* [软件的安装](installing.md)
 
