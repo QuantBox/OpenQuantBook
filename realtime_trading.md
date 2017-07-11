@@ -10,19 +10,16 @@
 
 打开场景文件\(Scenario.cs\),把使用的合约修改成国内上市交易的合约。
 
-> public override void Run\(\)
->
+> ```
+> public override void Run()
 > {
+> Instrument instrument1=InstrumentManager.Instruments["rb1710"];
 >
->     Instrument instrument1=InstrumentManager.Instruments\["rb1710"\];
->
->     Instrument instrument2=InstrumentManager.Instruments\["cu1708"\];
->
-> ...
->
-> ...
->
+> Instrument instrument2=InstrumentManager.Instruments["cu1708"];
+> //...
+> //...
 > }
+> ```
 
 
 
