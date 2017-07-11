@@ -18,7 +18,11 @@
 
 * ### OpenQuant软件的卸载
 
-卸载软件可以通过控制面板或软件自带的 Uninstall 工具卸载 OpenQuant.exe 以外，还需要手动删除系统盘 Users 目录下两个路径的文件夹:
+卸载软件可以通过控制面板或软件自带的 Uninstall 工具卸载。
+
+![](/assets/Uninstall.png)
+
+除了运行Uninstall工具进行OpenQuant.exe程序卸载 以外，还需要手动删除系统盘 Users 目录下两个路径的文件夹:
 
 1. ...\AppData\Roaming\SmartQuant Ltd 
 2. ...\Documents\OpenQuant 2014 
