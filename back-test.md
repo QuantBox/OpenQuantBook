@@ -52,7 +52,7 @@ OpenQuant提供了一系列的绩效指标，运行策略以后，打开View -&g
 
 按照顺序列出如下：
 
-（1）Summary:
+**（1）Summary:**
 
 Net Profit: $$净利润 = 毛利 - 毛损$$
 
@@ -68,5 +68,61 @@ Maximun Drawdown Percent: $$最大回撤百分比=\frac{投资组合总权益最
 
 Profit Factor: $$盈亏比=\frac{毛利}{毛损}$$
 
-Recovery Factor: $$回复银$$
+Recovery Factor: $$恢复因子=\frac{净利润}{权益最大回撤值}$$
+
+**（2）Trades:**
+
+Num of Trades: $$总交易次数=\sum{交易次数}$$
+
+Num of Winning Trades: $$总盈利交易次数=\sum{盈利次数}$$
+
+Num of Losing Trades: $$总亏损交易次数=\sum{亏损次数}$$
+
+Profitable Percent: $$盈利次数百分比=\frac{盈利交易次数}{总交易次数}$$
+
+Averge Trade: $$平均收益=\frac{净利润}{总交易次数}$$
+
+Averge Winning Trade: $$所有盈利交易的平均收益=\frac{毛利}{盈利交易次数}$$
+
+Averge Losing Trade: $$所有亏损交易的平均收益=\frac{毛损}{亏损交易次数}$$
+
+Payoff Ratio: $$平均盈亏比=\frac{盈利交易的平均收益值}{亏损交易的平均亏损值}$$
+
+Average Maximun Adverse Excursion: $$多头为例：最大不利变动幅度均值=\frac{手数*(最低价-买入价)-手续费}{交易次数}$$
+
+Average Maximun Favorable Excursion: $$多头为例：最大有利变动幅度均值=\frac{手数*(最高价-买入价)-手续费}{交易次数}$$
+
+Average End Of Trade Drawdown: $$所有交易的回撤均值$$
+
+Maximun Consecutive Winning Trades: $$最大连续盈利的交易次数$$
+
+Maximun Consecutive Losing Trades: $$最大连续亏损的交易次数$$
+
+Averge Trades Duration: $$平均持仓时间$$
+
+**（3）Daily/Annual Returns:**
+
+Daily Return Percent: $$日收益率$$
+
+Averge Daily Return Percent: $$日平均收益率$$
+
+Averge Annual Return Percent: $$年平均收益率=日平均收益率*年交易日数$$
+
+Daily Return Percent Standard Deviation: $$日收益率标准差$$
+
+Annual Return Percent Standard Deviation: $$年收益率标准差$$
+
+Daily Return Percent Downside Risk: $$日化下行波动率=\sqrt{\frac{\sum{日收益率为正数的收益率^2}}{日收益率为负数的天数}}$$
+
+Annual Return Percent Downside Risk: $$年化下行波动率=日化下行波动率*\sqrt{年交易日数}$$
+
+Sharpe Ratio: $$夏普比率=\frac{投资组合预期收益率-无风险利率}{投资组合的标准差}$$
+
+Sortino Ratio: $$索提诺比率=\frac{\sqrt{年交易日数}*日超额收益率均值}{年化下行波动率}$$
+
+Compound Annual Growth Rate: $$年复合增长率=(\frac{现有价值}{基础价值})^{\frac{1}{年数}}-1$$
+
+MAR Ratio: $$MAR比率=\frac{预期收益率}{最大回撤}$$
+
+Value At Risk: $$VaR=总资本*(抽样分位数*收益率标准差)+收益率平均值$$
 
