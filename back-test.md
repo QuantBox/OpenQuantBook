@@ -139,44 +139,44 @@ Value At Risk: $$VaR=总资本*(抽样分位数*收益率标准差)+收益率平
 ```
 public virtual double GetCommission(ExecutionReport report)
 {
-	double value = 0;
-	
-	switch(type)
-	{
-		case CommissionType.Absolute:
-			value = commission;
-			break;
-		case CommissionType.Percent:
-			value = commission * report.cumQty * report.avgPx;
-			break;
-		case CommissionType.PerShare:
-			value = commission * report.cumQty;
-			break;
-		default:
-			throw new NotSupportedException("Unknown commission type"+ type);		
-	}
-	
-	if(value < minCommission)
-		return minCommission
-	
-	return value;
+    double value = 0;
+
+    switch(type)
+    {
+        case CommissionType.Absolute:
+            value = commission;
+            break;
+        case CommissionType.Percent:
+            value = commission * report.cumQty * report.avgPx;
+            break;
+        case CommissionType.PerShare:
+            value = commission * report.cumQty;
+            break;
+        default:
+            throw new NotSupportedException("Unknown commission type"+ type);        
+    }
+
+    if(value < minCommission)
+        return minCommission
+
+    return value;
 }
 
 public virtual double GetPrice(ExecutionReport report)
 {
-	double price = report.AvgPx;
-	
-	switch(report.side)
-	{
-		case OrderSide.Buy:
-			price += price * slippage;
-			break;
-		case OrderSide.Sell:
-			price -= price * slippage;
-			break;	
-			}
-	return price;
-	
+    double price = report.AvgPx;
+
+    switch(report.side)
+    {
+        case OrderSide.Buy:
+            price += price * slippage;
+            break;
+        case OrderSide.Sell:
+            price -= price * slippage;
+            break;    
+            }
+    return price;
+
 }
 ```
 
