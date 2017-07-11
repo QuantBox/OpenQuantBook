@@ -25,22 +25,10 @@
 > ```java
 > public override void Run()
 > {
-> Instrument instrument1 = InstrumentManager.Instruments["rb1710"];
-> Instrument instrument2 = InstrumentManager.Instruments["cu1708"];
-> // Create SMA Crossover strategy
-> strategy = new MyStrategy(framework, "SMACrossover");
-> // Add instruments
-> strategy.AddInstrument(instrument1);
-> strategy.AddInstrument(instrument2);
-> strategy.DataProvider = ProviderManager.GetDataProvider("A99CTP");
-> strategy.ExecutionProvider = ProviderManager.GetExecutionProvider("A99CTP");
-> // Add 1 minute bars
->   BarFactory.Clear();
-> BarFactory.Add(instrument1, BarType.Time, barSize);
-> BarFactory.Add(instrument2, BarType.Time, barSize);
-> // Run the strategy
-> //StartStrategy();
-> StartLive();
+>     Instrument instrument1=InstrumentManager.Instruments["rb1710"];
+>     Instrument instrument2=InstrumentManager.Instruments["cu1708"];
+>     //...
+>     //...    
 > }
 > ```
 
