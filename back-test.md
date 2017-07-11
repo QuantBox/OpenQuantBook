@@ -126,3 +126,71 @@ MAR Ratio: $$MAR比率=\frac{预期收益率}{最大回撤}$$
 
 Value At Risk: $$VaR=总资本*(抽样分位数*收益率标准差)+收益率平均值$$
 
+**PS：OpenQuant中年交易日数为252天**
+
+* ### **手续费和滑点的处理**
+
+可以通过设置ExecutionSimulator属性的CommissionProvider和SlippageProvider来设置手续费和滑点。
+
+![](/assets/SetCommission.png)
+
+也可以通过实现ICommissionProvider和ISlippageProvider接口来开发自己的手续费和滑点，或继承CommissionProvider和SlippageProvider类，重写GetCommission\(\)和GetPrice\(\)方法。默认的GetCommission\(\)和GetPrice\(\)方法如下。
+
+```
+public virtual double GetCommission(ExecutionReport report)
+{
+	double value = 0;
+	
+	switch(type)
+	{
+		case CommissionType.Absolute:
+			value = commission;
+			break;
+		case CommissionType.Percent:
+			value = commission * report.cumQty * report.avgPx;
+			break;
+		case CommissionType.PerShare:
+			value = commission * report.cumQty;
+			break;
+		default:
+			throw new NotSupportedException("Unknown commission type"+ type);		
+	}
+	
+	if(value < minCommission)
+		return minCommission
+	
+	return value;
+}
+
+public virtual double GetPrice(ExecutionReport report)
+{
+	double price = report.AvgPx;
+	
+	switch(report.side)
+	{
+		case OrderSide.Buy:
+			price += price * slippage;
+			break;
+		case OrderSide.Sell:
+			price -= price * slippage;
+			break;	
+			}
+	return price;
+	
+}
+```
+
+* ### **分红派息**
+
+Thanf提供的数据是已经过前复权预处理后的数据，前复权计算减去了相应的分红数据，这样回测会造成您在回测最开始的时间会默认已经取得所有回测时间段内的分红。建议提高手续费对冲这部分误差。
+
+前复权后价格＝\[\(复权前价格-现金红利\)＋配\(新\)股价格×流通股份变动比例\]÷\(1＋流通股份变动比例\)
+
+* ### **回测的成交原理**
+
+OpenQuant的回测成交原理是下单后见价成交，成交价取决于报单价以及滑点的设置。需要注意的是，如果报单量大于交易总量，则仅部分成交。
+
+### 
+
+
+
