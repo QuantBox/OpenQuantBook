@@ -37,9 +37,3 @@ OpenQuant 应用程序会被安装在标准的 Program Files \(x86\)\SmartQuant 
 
 
 
-
-
-
-
-
-
