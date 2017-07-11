@@ -13,11 +13,10 @@
 > ```java
 > public override void Run()
 > {
-> Instrument instrument1=InstrumentManager.Instruments["rb1710"];
->
-> Instrument instrument2=InstrumentManager.Instruments["cu1708"];
-> //...
-> //...
+>     Instrument instrument1=InstrumentManager.Instruments["rb1710"];
+>     Instrument instrument2=InstrumentManager.Instruments["cu1708"];
+>     //...
+>     //...
 > }
 > ```
 
