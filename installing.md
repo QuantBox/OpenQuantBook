@@ -10,8 +10,6 @@
 
 也可以注册在线版本QuantWeb直接进行在线测试。
 
-
-
 ### OpenQuant软件运行环境
 
 OpenQuant系统运行在微软Windows操作系统，最新版本的OpenQuant支持Windows7，Windows8，Windows10及Windows Server 2008，Windows Server 2012等主流的Windows 64位操作系统。安装OpenQuant软件时，OpenQuant安装程序会自动检测是否有合适的.NET Framework基础软件，如果需要安装程序会自动进行升级安装。
