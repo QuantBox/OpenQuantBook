@@ -8,6 +8,26 @@
 
 SmartQuant公司开发的基于微软C\#和.NET技术的完整量化交易解决方案，核心产品是量化交易集成开发执行系统OpenQuant，及交易报单路由管理QuantRouter、高性能市场数据系统QuantBase、策略执行系统QuantTrader及分布式构架交易管理系统Quant Controller 等一系列量化金融软件。随着产品不断的发展和完善，OpenQuant系列产品充分经过市场及客户的验证，公司已经拥有大量的专业机构类量化投资客户。
 
+### SmartQuant公司的软件产品
+
+SmartQuant公司围绕量化交易提供全面的解决方案，目前SmartQuant公司的主要产品有：
+
+**OpenQuant**：SmartQuant旗舰产品，用于量化交易的策略开发、策略测试、策略优化、执行和监控。
+
+**QuantRouter** ：交易定单路由系统，可以分拆、合并，并管理交易定单的路由。
+
+**QuantBase **：高性能市场数据处理系统，可集中管理实时行情及海量历史行情数据。
+
+**QuantTrader **：成熟策略上线后的高效执行系统。
+
+**QuantController** ：用于构架及管理分布式构架的交易体系。
+
+更多的产品信息请访问SmartQuant公司网站及SmartQuant中文网站
+
+[http://www.smartquant.com ](http://www.smartquant.com)
+
+[http://www.smartquant.cn ](http://www.smartquant.cn)
+
 ### 什么是OpenQuant
 
 OpenQuant系列软件产品是SmartQuant公司研发的专业量化交易系统。OpenQuant面向专业量化策略研究员、交易员，提供强大的策略开发、回测、运行及监控功能。OpenQuant系统采用标准的C\#语言进行策略编程，不仅内置了众多量化金融函数、指标和算法，更可以让用户进行个性化的功能扩展。OpenQuant系统自1997年不断创新发展至今，被全球众多专业金融机构广泛应用。

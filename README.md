@@ -1,10 +1,8 @@
-# OpenQuantBook OpenQuant系统的入门手册
+# OpenQuantBook 
 
 ---
 
-### 
-
-### 
+### OpenQuant系统的入门手册
 
 
 
