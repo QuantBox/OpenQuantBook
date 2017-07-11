@@ -50,7 +50,23 @@ OpenQuant提供了一系列的绩效指标，运行策略以后，打开View -&g
 
 ![](/assets/PortfolioStatisticsDemo.png)
 
+按照顺序列出如下：
 
+（1）Summary:
 
+Net Profit: $$净利润 = 毛利 - 毛损$$
 
+Gross Profit:$$毛利=\sum{盈利}$$
+
+Gross Loss: $$毛损=\sum{亏损}$$
+
+Drawdown Percent：$$期末权益回撤百分比=\frac{投资组合总权益期末值-历史最高值}{历史最高值}$$
+
+Average Drawdown Percent: $$平均回撤百分比$$
+
+Maximun Drawdown Percent: $$最大回撤百分比=\frac{投资组合总权益最高值产生之后出现的最低值-历史最高值}{历史最高值}$$
+
+Profit Factor: $$盈亏比=\frac{毛利}{毛损}$$
+
+Recovery Factor: $$回复银$$
 
