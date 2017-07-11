@@ -54,7 +54,7 @@ OpenQuant提供了一系列的绩效指标，运行策略以后，打开View -&g
 
 **（1）Summary:**
 
-Net Profit: $$净利润 = 毛利 - 毛损$$
+Net Profit: $$ 净利润 = 毛利 - 毛损 $$
 
 Gross Profit:$$毛利=\sum{盈利}$$
 
