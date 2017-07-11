@@ -24,8 +24,8 @@
 
 除了运行Uninstall工具进行OpenQuant.exe程序卸载 以外，还需要手动删除系统盘 Users 目录下两个路径的文件夹:
 
-1. ...\AppData\Roaming\SmartQuant Ltd 
-2. ...\Documents\OpenQuant 2014 
+1. ...\AppData\Roaming\SmartQuant Ltd   ，数据及配置文件
+2. ...\Documents\OpenQuant 2014         ，自己的项目文件
 
 
 
