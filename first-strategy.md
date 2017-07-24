@@ -130,7 +130,7 @@ namespace OpenQuant
 }
 ```
 
-我们在OnStrategyStart\(\)函数中，添加System.Console.WriteLine\("Hello OpenQuant"\)，至此我们第一个策略完成，运行策略可以看到结果
+我们在OnStrategyStart\(\)函数中，添加System.Console.WriteLine\("Hello OpenQuant"\)，至此我们第一个策略完成，运行策略可以看到结果。
 
 ![](/assets/first-strategy06.png)
 
