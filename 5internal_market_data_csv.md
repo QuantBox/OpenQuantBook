@@ -12,9 +12,9 @@
                                                    图 1 数据格式
 ```
 
-1. 数据导入过程
+### 2.数据导入过程
 
-2.1添加数据
+### 2.1添加数据
 
 打开OpenQuant2014，点击Data-&gt;Import-&gt;CSV or Text Files 进入到数据导入界面，如图2：
 
@@ -100,41 +100,57 @@ DataTime、Bid、BidSize、Ask、AskSize。
 
 ![](/assets/42internal_market_data_csv08.png)
 
-                                                     图 8 时间格式设置1
+```
+                                                 图 8 时间格式设置1
+```
 
 ![](/assets/42internal_market_data_csv09.png)
 
-                                                图 9 时间格式设置2
+```
+                                            图 9 时间格式设置2
+```
 
 也可通过Advanced进行高级设置，点击Advanced，进入设置界面，通过 Other-Create instrument 可设置导入的数据存放在哪个分类下（默认为Stock），如下图10：
 
 ![](/assets/42internal_market_data_csv10.png)
 
-                                               图 10 高级设置
+```
+                                           图 10 高级设置
+```
 
 全部设置好后，可点击Template右侧的Save ,将之前的设置存为模板。之后设置同样格式的数据文件时可选择模板然后点击Apply即可使用模版。然后点击Next，进入数据导入界面。
 
-2.2导入数据
+### 2.2导入数据
 
 在数据导入页面，点击左上角的绿色小三角开始导入，等待导入完成后点击Close即可，如下图11：
 
 ![](/assets/42internal_market_data_csv11.png)
 
-                                          图 11 导入数据
+```
+                                      图 11 导入数据
+```
 
-1. 查看导入数据
+### 3.查看导入数据
 
 选择View-Instruments，点击导入数据存放的文件类，找到导入的数据，右键单击，在弹出菜单选择 Data，即可看到所导入的数据。如下图12、13、14：
 
 ![](/assets/42internal_market_data_csv12.png)
 
-                                        图 12 查看数据菜单入口
+```
+                                    图 12 查看数据菜单入口
+```
 
 ![](/assets/42internal_market_data_csv13.png)
 
-                                    图 13 查看数据
+```
+                                图 13 查看数据
+```
 
 ![](/assets/42internal_market_data_csv14.png)
 
-                               图 14 数据显示
+```
+                           图 14 数据显示
+```
+
+
 
