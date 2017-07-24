@@ -1,4 +1,4 @@
-# OpenQuant**软件下载与安装**
+# OpenQuant软件下载与安装
 
 ---
 
