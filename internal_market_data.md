@@ -44,7 +44,11 @@ ThanfData连接成功后，在菜单栏选择Data -&gt; Import -&gt; Instruments
 
 获取合约列表后，选择您想要导入本地使用的合约，点击右侧Import按钮，导入完成后，OQ就会将已选的合约添加进Instruments面板（View -&gt; Instruments），如图4所示。
 
-图 2 导入Thanf合约初始界面
+![](/assets/internal_market_data02.png)
+
+                                                     图 2 导入Thanf合约初始界面
+
+![](/assets/internal_market_data03.png)
 
 图 3 请求订阅合约
 
