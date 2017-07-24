@@ -58,7 +58,9 @@ ThanfData连接成功后，在菜单栏选择Data -&gt; Import -&gt; Instruments
 
 ![](/assets/internal_market_data04.png)
 
-                                                                  图 4 导入Thanf合约完成界面
+```
+                                                    图 4 导入Thanf合约完成界面
+```
 
 1. 获取Thanf历史数据
 
@@ -66,7 +68,9 @@ ThanfData连接成功后，在菜单栏选择Data -&gt; Import -&gt; Instruments
 
 ![](/assets/internal_market_data05.png)
 
-                                                            图 5 导入Thanf合约历史数据初始界面
+```
+                                                   图 5 导入Thanf合约历史数据初始界面
+```
 
 将左侧Instruments面板栏中的合约拖至导入列表框中，此时合约状态为Pending等待状态，设置数据类型和时间段，如图6所示。
 
@@ -77,7 +81,7 @@ ThanfData连接成功后，在菜单栏选择Data -&gt; Import -&gt; Instruments
 ![](/assets/internal_market_data06.png)
 
 ```
-                                                 图 6 开始导入合约历史数据
+                                                图 6 开始导入合约历史数据
 ```
 
 ![](/assets/internal_market_data07.png)
