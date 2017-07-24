@@ -8,7 +8,7 @@
 
  4. [获取国内市场数据](internal_market_data.md)
 
- 5. [如何导入csv或txt格式的数据](5internal_market_data_csv.md)
+ 5. [导入csv或txt格式的数据](5internal_market_data_csv.md)
 
  6. [下载和安装插件](install-plugins.md)
 
