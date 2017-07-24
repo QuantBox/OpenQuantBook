@@ -51,7 +51,7 @@ static void Main(string[] args)
 
  scenario.Run();
 
-} 
+}
 ```
 
 上面代码可以看出，Main函数会调用MyScenario.cs里面的Run函数。
@@ -71,15 +71,15 @@ static void Main(string[] args)
 
           strategy = new MyStrategy(framework, "Backtest");
 
-//订阅合约
+          //订阅合约
 
-strategy.AddInstrument(instrument);
+          strategy.AddInstrument(instrument);
 
-Initialize();
+          Initialize();
 
           StartStrategy();
 
-        } 
+        }
 ```
 
 strategy = new MyStrategy\(framework, "Backtest"\);这行代码就代表了我们的策略代码是MyStartegy.cs文件中的MyStrategy类
@@ -116,7 +116,7 @@ namespace OpenQuant
         {
 
             System.Console.WriteLine("Hello OpenQuant");
-               
+
         }
 
         protected override void OnBar(Instrument instrument, Bar bar)
@@ -127,7 +127,7 @@ namespace OpenQuant
 
     }
 
-} 
+}
 ```
 
 我们在OnStrategyStart\(\)函数中，添加System.Console.WriteLine\("Hello OpenQuant"\)，至此我们第一个策略完成，运行策略可以看到结果
