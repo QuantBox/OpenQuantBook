@@ -10,7 +10,7 @@ Project：项目
 
 双击cs文件可以打开编辑代码
 
-**1新建策略**
+**1、新建策略**
 
 在菜单栏File-&gt;New-&gt;Solution，新建一个解决方案
 
@@ -30,7 +30,7 @@ Location 是解决方案（代码）保存的位置
 
 ![](/assets/first-strategy04.png)
 
-**2 编写Hello OpenQuant策略**
+**2 、编写Hello OpenQuant策略**
 
 OpenQaunt代码编辑器支持语法高亮、格式化、自动完成，如下所示（自动完成）
 
