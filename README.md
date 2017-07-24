@@ -1,6 +1,11 @@
 # OpenQuantBook
 
 ---
+* ### 简介
+OpenQuant系列软件产品是SmartQuant公司研发的专业量化交易系统。OpenQuant面向专业量化策略研究员、交易员，提供强大的策略开发、回测、运行及监控功能。OpenQuant系统采用标准的C\#语言进行策略编程，不仅内置了众多量化金融函数、指标和算法，更可以让用户进行个性化的功能扩展。OpenQuant系统自1997年不断创新发展至今，被全球众多专业金融机构广泛应用。
+
+
+* ### 目录
 
 1. [SmartQuant公司的OpenQuant系统](whats_the_smartquant_or_openquant.md)
 
@@ -29,6 +34,12 @@
 13. [OpenQuant的调试功能](debug_function.md)
 
 14. [其它常见问题](common_question.md)
+
+
+* ### 联系我们
+ OpenQuant中文服务QQ群：50511635 
+
+ OpenQuant横琴大赛服务QQ群：273171771
 
 
 
