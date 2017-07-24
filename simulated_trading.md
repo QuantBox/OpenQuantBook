@@ -2,6 +2,16 @@
 
 ---
 
+###  模拟交易的数据源是什么
+
+ Paper\(模拟\)模式下连接是真实的行情数据。
+
+###  模拟交易与和回测的数据差异
+
+ 模拟交易和回测的差异在于接入的行情不一样，模拟交易使用的是真实行情，回测使用的是历史行情。
+
+### 如何进行模拟交易
+
 要进行模拟交易先要理解什么是模拟交易。OpenQuant包含三种工作模式，Backtest\(回测\)、Paper\(模拟\)、Live\(实盘\)，而在系统内核里只有两种运行模式：Real-time、Simulation分别对应Live\(实盘\)和Backtest\(回测\)模式。这就出现了一个问题，既然系统内核中并不存在一种和Paper\(模拟\) 相对应的运行模式，那么当策略运行在Paper\(模拟\)模式时，系统内核到底发生了什么？
 
 实际上当策略运行在Paper\(模拟\)模式时，系统内核的运行模式是Realtime。这就表示Live\(实盘\)和Paper\(模拟\)内核运行模式是相同的，那Live\(实盘\)和Paper\(模拟\)不同的运行效果是如何实现的呢，关键就是策略运行时指定的交易通道不同。Live\(实盘\)模式下策略都会连接真实的交易通道向交易所或代理商发送订单接收行情，而在Paper\(模拟\)模式下虽然也会连接真实的交易通道接收行情，但是报单并不发送给交易所或代理商而是使用系统自带的模拟交易引擎进行模拟撮合。
@@ -17,10 +27,10 @@
 ```
 public override void Run()
 {
-	Instrument instrument1=InstrumentManager.Instruments["rb1710"];
-	Instrument instrument2=InstrumentManager.Instruments["cu1708"];
-	...
-	...
+    Instrument instrument1=InstrumentManager.Instruments["rb1710"];
+    Instrument instrument2=InstrumentManager.Instruments["cu1708"];
+    ...
+    ...
 }
 ```
 
