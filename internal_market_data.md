@@ -32,7 +32,9 @@ A股、指数、期货的标的信息
 
 ![](/assets/internal_market_data01.png)
 
-                                                                                          图 1 连接Thanf数据接口
+```
+                                                图 1 连接Thanf数据接口
+```
 
 1. 获取Thanf合约信息
 
