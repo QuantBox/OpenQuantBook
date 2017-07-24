@@ -14,15 +14,21 @@
 
  7. [开始第一个策略](first-strategy.md)
 
- 8. [回测常见问题](/back-test.md)
+ 8. [导入第三方库](import_third_lib.md)
 
- 9. [如何进行模拟交易](simulated_trading.md)
+ 9. [常用的策略事件](commonly_strategy_event.md)
 
- 10. [如何进行实盘交易](realtime_trading.md)
+ 10. [订单类型](order_type.md)
 
- 11. [OpenQuant的调试功能](debug_function.md)
+ 11. [回测常见问题](/back-test.md)
 
- 12. [其它常见问题](common_question.md)
+ 12. [如何进行模拟交易](simulated_trading.md)
+
+ 13. [如何进行实盘交易](realtime_trading.md)
+
+ 14. [OpenQuant的调试功能](debug_function.md)
+
+ 15. [其它常见问题](common_question.md)
 
 
 
