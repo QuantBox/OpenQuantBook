@@ -6,17 +6,13 @@
 
  3. [OpenQuant软件下载、安装、运行](installing.md)
 
- 4. [获取国内市场数据](internal_market_data.md)
+ 4. 关于国内市场数据
 
- 4.1[提供的数据类型]
+ 4.1[数据如何接入](internal_market_data.md)
 
- 4.2 怎么接入数据
+ 4.2[如何导入csv或txt格式的数据](42internal_market_data_csv.md)
 
- 4.3 数据每天什么时候更新
-
- 4.4 如何导入csv或txt格式的数据
-
- 5.  [下载和安装插件](install-plugins.md)
+ 5. [下载和安装插件](install-plugins.md)
 
  6. [开始第一个策略](first-strategy.md)
 
