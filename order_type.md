@@ -1,4 +1,4 @@
-# OpenQuantf支持的订单类型
+# OpenQuant支持的订单类型
 
 ---
 
