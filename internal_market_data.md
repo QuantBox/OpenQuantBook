@@ -46,17 +46,23 @@ ThanfData连接成功后，在菜单栏选择Data -&gt; Import -&gt; Instruments
 
 ![](/assets/internal_market_data02.png)
 
-                                                     图 2 导入Thanf合约初始界面
+```
+                                                 图 2 导入Thanf合约初始界面
+```
 
 ![](/assets/internal_market_data03.png)
 
-图 3 请求订阅合约
+                                                      图 3 请求订阅合约
+
+![](/assets/internal_market_data04.png)
 
 图 4 导入Thanf合约完成界面
 
 1. 获取Thanf历史数据
 
 成功获取合约信息后，便可以开始导入历史数据。在菜单栏选择Data -&gt; Import -&gt; Historical -&gt; ThanfData，会弹出如图5所示界面。
+
+![](/assets/internal_market_data05.png)
 
 图 5 导入Thanf合约历史数据初始界面
 
@@ -66,13 +72,19 @@ ThanfData连接成功后，在菜单栏选择Data -&gt; Import -&gt; Instruments
 
 设置完成后，再点击导入界面的绿色箭头按钮，开始导入。
 
-图 6 开始导入合约历史数据
+![](/assets/internal_market_data06.png)
 
-图 7 Thanf合约历史数据导入完成界面
+                                                     图 6 开始导入合约历史数据
+
+![](/assets/internal_market_data07.png)
+
+                                           图 7 Thanf合约历史数据导入完成界面
 
 导入过程中，合约状态为Processing，导入成功后，合约的状态会变为Completed，如图7所示。
 
 此时，双击Instruments栏中的该合约，即可查看导入的历史数据列表详细信息，如图8所示。
 
-图 8 查看合约历史数据
+![](/assets/internal_market_data08.png)
+
+                                      图 8 查看合约历史数据
 
