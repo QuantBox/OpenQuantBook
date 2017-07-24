@@ -6,7 +6,7 @@
 
  3. [OpenQuant软件下载、安装、运行](installing.md)
 
- 4. [接入国内市场数据](internal_market_data.md)
+ 4. [获取国内市场数据](internal_market_data.md)
 
  5. [如何导入csv或txt格式的数据](5internal_market_data_csv.md)
 
@@ -23,11 +23,6 @@
  11. [OpenQuant的调试功能](debug_function.md)
 
  12. [其它常见问题](common_question.md)
-
-
-
-
-�见问题](common_question.md)
 
 
 
