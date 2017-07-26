@@ -10,7 +10,7 @@ OpenQuant系统中可以由第三方服务商或者开发者自行进行扩展�
 
 ![](/assets/A99CTP.png)
 
-图1：OpenQuant中的插件（Provider）
+
 
 CTP插件提供了合约管理、交易接口和获取实时行情的接口功能。
 
@@ -41,7 +41,7 @@ CTP插件提供了合约管理、交易接口和获取实时行情的接口功�
 当CTP插件（Provider A99CTP）与CTP交易柜台正常连接后，即可为你的OpenQuant系统添加合约信息。在菜单栏中选择Data -&gt; Import -&gt; Instruments -&gt; A99CTP ，下图所示：
 
 ![](/assets/ImportInstrument.png)  
-图2：为OpenQuant添加合约
+
 
 弹出如下图所示界面，点击右侧Request按钮后，会显示您所连接的CTP柜台中提供的所有合约列表。您也可以使用Filter按照合约类型、交易所、字符等过滤合约后，再点击Request。
 
