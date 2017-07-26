@@ -14,13 +14,13 @@ SmartQuant公司围绕量化交易提供全面的解决方案，目前SmartQuant
 
 **OpenQuant**：SmartQuant旗舰产品，用于量化交易的策略开发、策略测试、策略优化、执行和监控。
 
-**QuantRouter** ：交易定单路由系统，可以分拆、合并，并管理交易定单的路由。
+**QuantRouter**：交易定单路由系统，可以分拆、合并，并管理交易定单的路由。
 
 **QuantBase**：高性能市场数据处理系统，可集中管理实时行情及海量历史行情数据。
 
 **QuantTrader**：成熟策略上线后的高效执行系统。
 
-**QuantController** ：用于构架及管理分布式构架的交易体系。
+**QuantController**：用于构架及管理分布式构架的交易体系。
 
 更多的产品信息请访问SmartQuant公司网站及SmartQuant中文网站
 
