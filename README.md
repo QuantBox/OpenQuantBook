@@ -11,9 +11,9 @@
 
 * [OpenQuant软件下载、安装、运行](installing.md)
 
-* [获取国内市场数据](internal_market_data.md)
+* [获取国内市场数据](domestic_market_data.md)
 
-* [导入csv或txt格式的数据](internal_market_data_csv.md)
+* [导入csv或txt格式的数据](domestic_market_data_csv.md)
 
 * [下载和安装插件](install_plugins.md)
 
