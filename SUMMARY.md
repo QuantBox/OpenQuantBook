@@ -3,9 +3,6 @@
 
 * [SmartQuant公司的OpenQuant系统](whats_the_smartquant_or_openquant.md)
 
- * [test](installing.md)
-  * [test1](installing.md)
-
 * [OpenQuant软件下载、安装、运行](installing.md)
 
 * [获取国内市场数据](domestic_market_data.md)
