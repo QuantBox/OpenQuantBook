@@ -7,37 +7,38 @@
   OpenQuant系列软件产品是SmartQuant公司研发的专业量化交易系统。OpenQuant面向专业量化策略研究员、交易员，提供强大的策略开发、回测、运行及监控功能。OpenQuant系统采用标准的C\#语言进行策略编程，不仅内置了众多量化金融函数、指标和算法，更可以让用户进行个性化的功能扩展。OpenQuant系统自1997年不断创新发展至今，被全球众多专业金融机构广泛应用。
 
 * ### 目录
-* [SmartQuant公司的OpenQuant系统](whats_the_smartquant_or_openquant.md)
 
-* [OpenQuant软件下载、安装、运行](installing.md)
+* [1.SmartQuant公司的OpenQuant系统](whats_the_smartquant_or_openquant.md)
 
-* [获取国内市场数据](domestic_market_data.md)
+* [2.OpenQuant软件下载、安装、运行](installing.md)
 
-* [导入csv或txt格式的数据](domestic_market_data_csv.md)
+* [3.获取国内市场数据](domestic_market_data.md)
 
-* [下载和安装插件](install_plugins.md)
+* [4.导入csv或txt格式的数据](domestic_market_data_csv.md)
 
-* [开始第一个策略](first_strategy.md)
+* [5.下载和安装插件](install_plugins.md)
 
-* [导入第三方库](import_third_party_lib.md)
+* [6.开始第一个策略](first_strategy.md)
 
-* [常用的策略事件](common_strategy_event.md)
+* [7.导入第三方库](import_third_party_lib.md)
 
-* [订单类型](order_type.md)
+* [8.常用的策略事件](common_strategy_event.md)
 
-* [回测常见问题](back_test.md)
+* [9.订单类型](order_type.md)
 
-* [如何进行模拟交易](simulated_trading.md)
+* [10.回测常见问题](back_test.md)
 
-* [如何进行实盘交易](realtime_trading.md)
+* [11.如何进行模拟交易](simulated_trading.md)
 
-* [OpenQuant的调试功能](debug_function.md)
+* [12.如何进行实盘交易](realtime_trading.md)
 
-* [其它常见问题](common_question.md)
+* [13.OpenQuant的调试功能](debug_function.md)
 
-* [代码附录](appendix_source_code.md)
+* [14.其它常见问题](common_question.md)
 
- * [OpenQuantOutside](source_code_OpenQuantOutside.md)
+* [15.代码附录](appendix_source_code.md)
+
+ * [15.1.OpenQuantOutside](source_code_OpenQuantOutside.md)
 
 * ### 联系我们
 
