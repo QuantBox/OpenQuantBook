@@ -35,6 +35,10 @@
 
 * [其它常见问题](common_question.md)
 
+* [代码附录](appendix_source_code.md)
+
+ * [OpenQuantOutside](source_code_OpenQuantOutside.md)
+
 * ### 联系我们
 
   OpenQuant中文服务QQ群：50511635

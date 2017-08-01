@@ -30,7 +30,7 @@
 
 * [其它常见问题](common_question.md)
 
-* [代码附录]
+* [代码附录](appendix_source_code.md)
 
  * [OpenQuantOutside](source_code_OpenQuantOutside.md)
 
