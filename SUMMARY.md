@@ -1,4 +1,5 @@
 # Summary
+
 ---
 
 * [SmartQuant公司的OpenQuant系统](whats_the_smartquant_or_openquant.md)
@@ -28,4 +29,20 @@
 * [OpenQuant的调试功能](debug_function.md)
 
 * [其它常见问题](common_question.md)
+
+* [代码附录]
+
+ * [OpenQuantOutside](source_code_OpenQuantOutside.md)
+
+
+
+
+
+
+
+
+
+
+
+
 
