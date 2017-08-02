@@ -45,7 +45,7 @@ Program.cs-&gt;Main函数：
 ```
 static void Main(string[] args)
 
-{
+{    
 
  Scenario scenario = new MyScenario(Framework.Current);
 
