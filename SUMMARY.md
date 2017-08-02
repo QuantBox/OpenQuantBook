@@ -1,11 +1,10 @@
 # Summary
 ---
 
-* [Introduction](README.md)
-* [简介](introduction.md)
-  * [SmartQuant公司的OpenQuant系统](whats_the_smartquant_or_openquant.md)
-  * [OpenQuant软件下载、安装、运行](installing.md)
-   * [test](installing.md)
+0 [Introduction](README.md)
+1 [简介](introduction.md)
+  1.1 [SmartQuant公司的OpenQuant系统](whats_the_smartquant_or_openquant.md)
+  1.2 [OpenQuant软件下载、安装、运行](installing.md) 
 * [数据](data_introduction.md)
   * [获取国内市场数据](domestic_market_data.md)
   * [导入csv或txt格式的数据](domestic_market_data_csv.md)
