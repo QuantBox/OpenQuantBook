@@ -20,6 +20,7 @@ Project：项目
 
 选择新建SmartQuant Instrument Strategy Solution模式的解决方案
 
+
 | OpenQuant中Solution的类型： | 说明 |
 | :---: | :---: |
 | SmartQuant Instrument Strategy Solution | 合约标的策略解决方案：针生成策略 |
@@ -28,6 +29,7 @@ Project：项目
 | Empty Solution |  |
 | Class Library |  |
 | Console Application |  |
+
 
 Name是解决方案的名称
 
@@ -54,7 +56,7 @@ Program.cs-&gt;Main函数：
 ```
 static void Main(string[] args)
 
-{
+{   
 
  Scenario scenario = new MyScenario(Framework.Current);
 
