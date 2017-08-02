@@ -22,7 +22,7 @@ Project：项目
 
 
 | OpenQuant中Solution的类型： | 说明 |
-| :---: | :---: |
+| :-------- | :-------- |
 | SmartQuant Instrument Strategy Solution | 合约标的策略解决方案：为订阅的每个合约创建一个实例，每个实例处理一个合约的数据，互不干扰。 |
 | SmartQuant Strategy Solution | 策略解决方案：可以在一个策略实例中处理多个合约的数据。|
 | SmartQuant Sell Side Strategy Solution | 卖方策略解决方案：新建后，除了 Backtest 以外，会有 2 个策略项目，MySellSideStrategy卖方策略可以理解为是 MyBuySideStrategy 买方策略的一个插件，在买方策略和经纪服务商之间添加了一个策略接口，实现一些可以解耦的功能。 |
