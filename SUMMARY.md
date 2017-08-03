@@ -42,7 +42,7 @@
   * [6.1 OpenQuant的调试功能](debug_function.md)
 * [7. 其它常见问题](common_question_introduction.md)
   * [7.1 如何在实盘模式下加载历史数据](load_historical_data_in_live_mode.md)
-  * [7.2 如何开平仓](open_and_close.md)
+  * [7.2 如何实现限价单和市价单的开平仓](open_and_close.md)
   * [7.3 OpenQuant快捷键](hot_key.md)
 * [8. 代码附录](appendix_source_code.md)
   * [8.1 OpenQuantOutside](source_code_OpenQuantOutside.md)

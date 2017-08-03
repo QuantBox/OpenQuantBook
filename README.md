@@ -31,8 +31,7 @@
     * [4.1.1 新建策略](first_strategy.md/#New_Strategy)
     * [4.1.2 编写Hello OpenQuant策略](first_strategy.md/#Hello_OpenQuant_Strategy)
   * [4.2 导入第三方库](import_third_party_lib.md)
-  * [4.3 常用的策略事件](common_strategy_event.md)
-  * [4.4 订单类型](order_type.md)
+  * [4.3 常用的策略事件](common_strategy_event.md)  
 * [5. 实战](practice_introduction.md)
   * [5.1 回测常见问题](back_test.md)
     * [5.1.1 回测的速度](back_test.md/#Back_test_speed)
@@ -50,9 +49,11 @@
   * [6.1 OpenQuant的调试功能](debug_function.md)
 * [7. 其它常见问题](common_question_introduction.md)
   * [7.1 如何在实盘模式下加载历史数据](load_historical_data_in_live_mode.md)
-  * [7.2 OpenQuant快捷键](hot_key.md)
+  * [7.2 如何实现限价单和市价单的开平仓](open_and_close.md)
+  * [7.3 OpenQuant快捷键](hot_key.md)
 * [8. 代码附录](appendix_source_code.md)
   * [8.1 OpenQuantOutside](source_code_OpenQuantOutside.md)
+
 
 
 
