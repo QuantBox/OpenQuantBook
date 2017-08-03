@@ -10,7 +10,7 @@ Project：项目
 
 双击cs文件可以打开编辑代码
 
-### **1. 新建策略**<div id="New_Strategy"></div>
+### <div id="New_Strategy"></div>新建策略
 
 在菜单栏File-&gt;New-&gt;Solution，新建一个解决方案
 
@@ -41,13 +41,13 @@ Location 是解决方案（代码）保存的位置
 
 ![](/assets/first-strategy04.png)
 
-### **2 . 编写Hello OpenQuant策略**<div id="Hello_OpenQuant_Strategy"></div>
+### <div id="Hello_OpenQuant_Strategy"></div>编写Hello OpenQuant策略
 
 OpenQaunt代码编辑器支持语法高亮、格式化、自动完成，如下所示（自动完成）
 
 ![](/assets/first-strategy05.png)
 
-### 2.1 编写场景
+### 1. 编写场景
 
 在解决方案资源管理器中，可以看到Backtest项目名称是黑体加粗（右键项目名称-&gt;Set as StartUP Project可以设置启动项，每个解决方案只有一个启动项），这表示Backtest项目为启动项，而Backtest项目又以Program.cs中的Main函数为入口。
 
@@ -95,7 +95,7 @@ static void Main(string[] args)
 
 strategy = new MyStrategy\(framework, "Backtest"\);这行代码就代表了我们的策略代码是MyStartegy.cs文件中的MyStrategy类
 
-### 2.2 编写策略代码
+### 2. 编写策略代码
 
 在已经编写好的场景文件中，可以看到Run函数new了MyStrategy实例，并且调用了StartStrategy\(\)函数，这就表示开始启动MyStrategy策略了。OpenQuant的策略执行机制是事件机制，即触发了某事件则会调用相应的处理函数，具体各个事件和相应的处理函数后面会详细介绍，在编写实际交易策略时，这些事件和处理函数是必须了解的。
 

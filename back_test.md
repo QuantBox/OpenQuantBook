@@ -2,7 +2,7 @@
 
 ---
 
- ### 回测的速度<div id="Back_test_speed"></div>
+ ### <div id="Back_test_speed"></div>回测的速度
 
 OpenQuant采用基于事件总线概念的架构体系，允许用户有效的利用多线程、缓存、负载均衡来构建分布式交易系统。除此之外，OpenQuant在执行层用可以预定义的高校简洁的执行消息代替了Fix消息，能够显著增加回测速度和减少内存消耗。得益于事件驱动机制和这些设计优点，OpenQuant拥有每秒钟处理百万数量级别事件的能力。
 
@@ -45,7 +45,7 @@ OpenQuant采用基于事件总线概念的架构体系，允许用户有效的�
 
 &lt;q&gt; Properties：属性界面，单击合约面板、插件面板或解决方案资源管理器界面等中的任一内容，都会在该面板中显示详细的属性。
 
- ### 回测的各项指标展示说明<div id="Back_test_indicators"></div>
+ ### <div id="Back_test_indicators"></div>回测的各项指标展示说明
 
 
 OpenQuant提供了一系列的绩效指标，运行策略以后，打开View -&gt; Portfolios，选择Statistics。
@@ -130,7 +130,7 @@ Value At Risk: $$VaR=总资本*(抽样分位数*收益率标准差)+收益率平
 
 **PS：OpenQuant中年交易日数为252天**
 
-### 手续费和滑点的处理<div id="Commission_and_slip_points"></div>
+### <div id="Commission_and_slip_points"></div>手续费和滑点的处理
 
 可以通过设置ExecutionSimulator属性的CommissionProvider和SlippageProvider来设置手续费和滑点。
 
@@ -182,14 +182,14 @@ public virtual double GetPrice(ExecutionReport report)
 }
 ```
 
-### 分红派息<div id="Dividend"></div>
+### <div id="Dividend"></div>分红派息
 
 
 Thanf提供的数据是已经过前复权预处理后的数据，前复权计算减去了相应的分红数据，这样回测会造成您在回测最开始的时间会默认已经取得所有回测时间段内的分红。建议提高手续费对冲这部分误差。
 
 前复权后价格＝\[\(复权前价格-现金红利\)＋配\(新\)股价格×流通股份变动比例\]÷\(1＋流通股份变动比例\)
 
-### 回测的成交原理<div id="Transaction_principle"></div>
+### <div id="Transaction_principle"></div>回测的成交原理
 
 OpenQuant的回测成交原理是下单后见价成交，成交价取决于报单价以及滑点的设置。需要注意的是，如果报单量大于交易总量，则仅部分成交。
 

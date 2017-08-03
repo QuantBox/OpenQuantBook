@@ -2,13 +2,13 @@
 
 ---
 
-### 什么是SmartQuant？<div id="What_is_SmartQuant"></div>
+### <div id="What_is_SmartQuant"></div>什么是SmartQuant?
 
 2003年成立于美国的SmartQuant有限责任公司，是一家专业量化金融软件提供商。SmartQuant公司专门面向对冲基金和专业交易机构，开发端到端程序化交易解决方案。为新兴和不断成长的量化交易机构提供成本可控，具备工业级强度的量化策略研发、策略回测及优化、交易策略自动化执行的综合平台，并以可靠的质量，速度和适应性来助力机构的成长。
 
 SmartQuant公司开发的基于微软C\#和.NET技术的完整量化交易解决方案，核心产品是量化交易集成开发执行系统OpenQuant，及交易报单路由管理QuantRouter、高性能市场数据系统QuantBase、策略执行系统QuantTrader及分布式构架交易管理系统Quant Controller 等一系列量化金融软件。随着产品不断的发展和完善，OpenQuant系列产品充分经过市场及客户的验证，公司已经拥有大量的专业机构类量化投资客户。
 
-### SmartQuant公司的软件产品<div id="SmartQuant_Products"></div>
+### <div id="SmartQuant_Products"></div>SmartQuant公司的软件产品
 
 
 SmartQuant公司围绕量化交易提供全面的解决方案，目前SmartQuant公司的主要产品有：
@@ -29,13 +29,13 @@ SmartQuant公司围绕量化交易提供全面的解决方案，目前SmartQuant
 
 [http://www.smartquant.cn ](http://www.smartquant.cn)
 
-### 什么是OpenQuant<div id="What_is_OpenQuant"></div>
+### <div id="What_is_OpenQuant"></div>什么是OpenQuant?
 
 OpenQuant系列软件产品是SmartQuant公司研发的专业量化交易系统。OpenQuant面向专业量化策略研究员、交易员，提供强大的策略开发、回测、运行及监控功能。OpenQuant系统采用标准的C\#语言进行策略编程，不仅内置了众多量化金融函数、指标和算法，更可以让用户进行个性化的功能扩展。OpenQuant系统自1997年不断创新发展至今，被全球众多专业金融机构广泛应用。
 
 ![](/assets/OpenQuant2014GUI.png)
 
-### OpenQuant系统特点：<div id="OpenQuant_system_features"></div>
+### <div id="OpenQuant_system_features"></div>OpenQuant系统特点
 
 * #### 面向专业交易机构，完善的量化交易平台
 

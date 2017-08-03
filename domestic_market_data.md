@@ -2,7 +2,7 @@
 
 ---
 
-## 支持股票、基金、外汇、期权、期货吗？<div id="Data_Support"></div>
+## <div id="Data_Support"></div>支持股票、基金、外汇、期权、期货吗？
 
 OpenQuant功能上支持以上所有标的。
 
@@ -10,7 +10,7 @@ OpenQuant功能上支持以上所有标的。
 
 其他的数据，例如中国大陆的B股、基金、期权也在接入的计划中；美股、港股、外汇数据会在上述三种数据接入完成再逐步接入。
 
-## 提供什么数据？<div id="What_data_is_available"></div>
+## <div id="What_data_is_available"></div>提供什么数据？
 
 目前提供的数据有：
 
@@ -20,11 +20,11 @@ OpenQuant功能上支持以上所有标的。
 
 A股、指数、期货的标的信息
 
-## 数据每天什么时候更新？<div id="Data_Update"></div>
+## <div id="Data_Update"></div>数据每天什么时候更新？
 
 目前的A股数据、期货数据均是在18:00 ~ 20:00 更新。
 
-## 我们提供的数据和其他平台数据有差异的原因？<div id="The_Reason_Of_Data_Difference"></div>
+## <div id="The_Reason_Of_Data_Difference"></div>我们提供的数据和其他平台数据有差异的原因？
 
 目前存在差异的地方有：
 
@@ -32,7 +32,7 @@ A股、指数、期货的标的信息
 
 主力连续合约的计算方式，我们采用的是加减法的方式对主力合约进行复权。
 
-## 数据如何接入？<div id="Data_access"></div>
+## <div id="Data_access"></div>数据如何接入？
 
 可以通过官方发布的Provider ThanfData下载数据。
 
@@ -112,7 +112,7 @@ ThanfData连接成功后，在菜单栏选择Data -&gt; Import -&gt; Instruments
                                               图 8 查看合约历史数据
 ```
 
-### 
+
 
 
 
