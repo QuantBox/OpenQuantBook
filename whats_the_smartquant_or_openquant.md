@@ -35,7 +35,7 @@ OpenQuant系列软件产品是SmartQuant公司研发的专业量化交易系统�
 
 ![](/assets/OpenQuant2014GUI.png)
 
-### <div id="OpenQuant_system_features"></div>OpenQuant系统特点
+### <div id="OpenQuant_Features"></div>OpenQuant系统特点
 
 * #### 面向专业交易机构，完善的量化交易平台
 

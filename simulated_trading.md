@@ -2,11 +2,11 @@
 
 ---
 
-###  <div id="Paper_data_source"></div>模拟交易的数据源是什么
+###  <div id="Paper_Data_Source"></div>模拟交易的数据源是什么
 
  Paper\(模拟\)模式下连接是真实的行情数据。
 
-###  <div id="Paper_and_Backtest_data_diff"></div>模拟交易与和回测的数据差异
+###  <div id="Paper_and_Backtest_Data_Diff"></div>模拟交易与和回测的数据差异
 
  模拟交易和回测的差异在于接入的行情不一样，模拟交易使用的是真实行情，回测使用的是历史行情。
 
