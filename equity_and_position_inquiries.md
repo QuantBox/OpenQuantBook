@@ -1,4 +1,4 @@
-###权益和持仓的查询
+# 权益和持仓的查询
 ---
 
 在策略中，可以通过调用AccountDataManager.GetSnapshots()方法获取所有providerID下的账户权益和持仓的明细，或GetSnapshot(byte providerId, byte route)获取指定providerID下的账户权益和持仓的明细，调用示例如下：
@@ -40,7 +40,8 @@ private void AccountInfo()
 }
 ```
 
-查询结果如下：
+查询结果如下：  
+
 ![](/assets/equity_and_position_inquiries.png)
 
 
