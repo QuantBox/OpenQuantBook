@@ -39,3 +39,8 @@ private void AccountInfo()
     }
 }
 ```
+
+查询结果如下：
+![](/assets/equity_and_position_inquiries.png)
+
+
