@@ -5,7 +5,7 @@
 ![](/assets/emit_ask_bid.png)
 
 EmitBidAsk:
-true:触发OnBid和OnAsk事件
+true:触发OnBid和OnAsk事件（如果想要触发OnAsk或OnBid，此项必须为true）
 false:不触发OnBid和OnAsk事件
 
 EmitBidAskFirst:
