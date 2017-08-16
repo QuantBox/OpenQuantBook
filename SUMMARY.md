@@ -45,7 +45,8 @@
   * [7.2 如何实现限价单和市价单的开平仓](open_and_close.md)
   * [7.3 权益和持仓的查询](equity_and_position_inquiries.md)  
   * [7.4 CTP插件Ask和Bid事件无法触发的问题](emit_ask_bid.md)
-  * [7.5 OpenQuant快捷键](hot_key.md)
+  * [7.5 OpenQuant中FOK指令的使用方法](fok_fak.md)
+  * [7.6 OpenQuant快捷键](hot_key.md)
 * [8. 代码附录](appendix_source_code.md)
   * [8.1 OpenQuantOutside](source_code_OpenQuantOutside.md)
   

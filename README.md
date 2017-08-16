@@ -7,6 +7,9 @@
   OpenQuant系列软件产品是SmartQuant公司研发的专业量化交易系统。OpenQuant面向专业量化策略研究员、交易员，提供强大的策略开发、回测、运行及监控功能。OpenQuant系统采用标准的C\#语言进行策略编程，不仅内置了众多量化金融函数、指标和算法，更可以让用户进行个性化的功能扩展。OpenQuant系统自1997年不断创新发展至今，被全球众多专业金融机构广泛应用。
   
 * ### Book v1.0最近更新
+  日期：20170816   
+  内容：在常见问题中添加OpenQuant中FOK指令的使用方法   
+  
   日期：20170814   
   内容：在常见问题中添加CTP插件Ask和Bid事件无法触发的问题
 
@@ -64,7 +67,8 @@
   * [7.2 如何实现限价单和市价单的开平仓](open_and_close.md)
   * [7.3 权益和持仓的查询](equity_and_position_inquiries.md)
   * [7.4 CTP插件Ask和Bid事件无法触发的问题](emit_ask_bid.md)
-  * [7.5 OpenQuant快捷键](hot_key.md)
+  * [7.5 OpenQuant中FOK指令的使用方法](fok_fak.md)
+  * [7.6 OpenQuant快捷键](hot_key.md)
 * [8. 代码附录](appendix_source_code.md)
   * [8.1 OpenQuantOutside](source_code_OpenQuantOutside.md)
 
