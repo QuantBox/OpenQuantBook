@@ -13,8 +13,7 @@ public override void Run()
     BarFactory.Clear();
     var inst = InstrumentManager.Instruments[“rb1710”];
     strategy.AddInstrument(inst);
-    BarFactory.Add(inst, BarType.Time, 60);
-    BarFactory.Add(new ExchangeDayBarFactoryItem(inst));
+    BarFactory.Add(inst, BarType.Time, 60);    
     DataSimulator.DateTime1 = new DateTime(2017, 06, 25);
     DataSimulator.DateTime2 = new DateTime(2017, 06, 27);
     StartBacktest();
@@ -24,7 +23,6 @@ public override void Run()
     StartLive();
 }
 ```
+
 OpenQuantOutside 类的源代码见代码附录：[OpenQuantOutside](source_code_OpenQuantOutside.md)
-
-
 
