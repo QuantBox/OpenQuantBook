@@ -1,29 +1,28 @@
-# OpenQuantBook - v1.0
+# OpenQuantBook - v1.1.211.20170816
 
 ---
 
 * ### 简介
 
   OpenQuant系列软件产品是SmartQuant公司研发的专业量化交易系统。OpenQuant面向专业量化策略研究员、交易员，提供强大的策略开发、回测、运行及监控功能。OpenQuant系统采用标准的C\#语言进行策略编程，不仅内置了众多量化金融函数、指标和算法，更可以让用户进行个性化的功能扩展。OpenQuant系统自1997年不断创新发展至今，被全球众多专业金融机构广泛应用。
-  
-* ### Book v1.0最近更新
-  日期：20170816   
-  内容：在常见问题中添加OpenQuant中FOK指令的使用方法   
-  
-  日期：20170814   
+
+* ### Book 最近更新
+
+  日期：20170816  
+  内容：在常见问题中添加OpenQuant中FOK指令的使用方法
+
+  日期：20170814  
   内容：在常见问题中添加CTP插件Ask和Bid事件无法触发的问题
 
-  日期：20170809   
+  日期：20170809  
   内容：在常见问题中添加权益和持仓的查询
 
   日期：20170803  
   内容：在常见问题中添加如何实现限价单和市价单的开平仓
 
-  
-
 * ### 目录
-
 * [0. Introduction](README.md)
+
 * [1. 简介](introduction.md)
   * [1.1 SmartQuant公司的OpenQuant系统](whats_the_smartquant_or_openquant.md)
     * [1.1.1 什么是SmartQuant](whats_the_smartquant_or_openquant.md/#What_is_SmartQuant)
@@ -71,10 +70,6 @@
   * [7.6 OpenQuant快捷键](hot_key.md)
 * [8. 代码附录](appendix_source_code.md)
   * [8.1 OpenQuantOutside](source_code_OpenQuantOutside.md)
-
-
-
-
 
 * ### 联系我们
 
