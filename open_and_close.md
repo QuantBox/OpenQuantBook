@@ -3,13 +3,13 @@
 ---
 
 OpenQuant支持的订单类型很多，但是国内交易市场很多不支持。下面主要介绍几种国内市场支持的订单类型，限价单和市价单的开平仓。
-想要实现国内开平仓操作，需要下载安装64位CTP插件，并在项目中引用QuantBox.Extensions，下载地址：http://www.smartquant.cn/cjxz.html
+想要实现国内开平仓操作，需要下载安装64位CTP插件，并在项目中引用 QuantBox.OQ，下载地址：http://www.smartquant.cn/rjxz.html
 
 这里有个简单的例子描述如何开多和平多，并直接下单（开空和平空和这个类似，方向相反而已）。
 
 
 ```
-using QuantBox.Extensions;
+using QuantBox;
 
 Order openLimitOrder;
 Order openMarketOrder;
