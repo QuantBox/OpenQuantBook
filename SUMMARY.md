@@ -13,28 +13,28 @@
 
 * [2 OpenQuant软件下载、安装、运行](installing.md)     
 
-  * [2.1 最新OpenQuant软件下载](installing.md/#2.1 最新OpenQuant软件下载)
+  * [2.1 最新OpenQuant软件下载](installing.md/#2.1)
 
-  * [2.2 OpenQuant软件运行环境](installing.md/#2.2 OpenQuant软件运行环境)
+  * [2.2 OpenQuant软件运行环境](installing.md/#2.2)
 
-  * [2.3 OpenQuant软件的安装](installing.md/#2.3 OpenQuant软件的安装)
+  * [2.3 OpenQuant软件的安装](installing.md/#2.3)
 
-  * [2.4 OpenQuant软件的卸载](installing.md/#2.4 OpenQuant软件的卸载)
+  * [2.4 OpenQuant软件的卸载](installing.md/#2.4)
 
-  * [2.5 OpenQuant软件的启动运行](installing.md/#2.5 OpenQuant软件的启动运行)
+  * [2.5 OpenQuant软件的启动运行](installing.md/#2.5)
 
-  * [2.6 配置OpenQuant对接国内期货交易通道](installing.md/#2.6 OpenQuant配置国内期货交易通道)
+  * [2.6 配置OpenQuant对接国内期货交易通道](installing.md/#2.6)
 
 * [3. OpenQuant2014连接CTP柜台并获取实时数据](domestic_market_data.md)
 
-  * [3.1 在OpenQuant中连接CTP柜台](domestic_market_data.md/#3.1 在OpenQuant中连接CTP柜台)
-  * [3.2 通过CTP实时获取CTP交易的合约信息](domestic_market_data.md/#3.2 通过CTP实时获取CTP交易的合约信息)
-  * [3.3 通过CTP观察合约的实时数据](domestic_market_data.md/#3.3 通过CTP观察合约的实时数据)
-  * [3.4 查询CTP柜台的账户基本信息](domestic_market_data.md/#3.4 查询CTP柜台的账户基本信息)
+  * [3.1 在OpenQuant中连接CTP柜台](domestic_market_data.md/#3.1)
+  * [3.2 通过CTP实时获取CTP交易的合约信息](domestic_market_data.md/#3.2)
+  * [3.3 通过CTP观察合约的实时数据](domestic_market_data.md/#3.3)
+  * [3.4 查询CTP柜台的账户基本信息](domestic_market_data.md/#3.4)
 
 * [4. 导入历史数据](domestic_HistoricalData.md)
 
-  * [4.1 通过QuantBox数据中心获取数据](domestic_HistoricalData.md/#4.1 通过QuantBox数据中心获取数据)
+  * [4.1 通过QuantBox数据中心获取数据](domestic_HistoricalData.md/#4.1)
   * [4.2 导入csv或txt格式的数据](domestic_market_data_csv.md)
 
 * [5. 策略](strategy_introduction.md)

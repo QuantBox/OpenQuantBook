@@ -2,7 +2,7 @@
 
 ---
 
-###  2.1 最新OpenQuant软件下载
+###  <div id="2.1"></div>2.1 最新OpenQuant软件下载
 
 在SmartQuant的官方网站中，您可以下载到OpenQuant最新版进行全功能的限时测试，测试期为30天。下载地址为：
 
@@ -16,7 +16,7 @@
 
 http://www.quantbox.cn/openquant
 
-###  2.2 OpenQuant软件运行环境
+###  <div id="2.2"></div>2.2 OpenQuant软件运行环境
 
 OpenQuant系统运行在微软Windows操作系统，最新版本的OpenQuant支持Windows7，Windows8，Windows10及Windows Server 2008，Windows Server 2012等主流的Windows 64位操作系统。安装OpenQuant软件时，OpenQuant安装程序会自动检测是否有合适的.NET Framework基础软件，如果需要安装程序会自动进行升级安装。
 
@@ -34,7 +34,7 @@ OpenQuant系统运行在微软Windows操作系统，最新版本的OpenQuant支�
 
 
 
-###  2.3 OpenQuant软件的安装
+###  <div id="2.3"></div>2.3 OpenQuant软件的安装
 
 
 
@@ -74,7 +74,7 @@ OpenQuant 应用程序会被安装在标准的 Program Files \(x86\)\SmartQuant 
 
 
 
-###  2.4 OpenQuant软件的卸载
+###  <div id="2.4"></div>2.4 OpenQuant软件的卸载
 
 卸载软件可以通过控制面板或软件自带的 Uninstall 工具卸载。
 
@@ -85,7 +85,7 @@ OpenQuant 应用程序会被安装在标准的 Program Files \(x86\)\SmartQuant 
 1. ...\AppData\Roaming\SmartQuant Ltd            数据和配置文件
 2. ...\Documents\OpenQuant 2014                      策略的项目代码
 
-###  2.5 OpenQuant软件的启动运行
+###  <div id="2.5"></div>2.5 OpenQuant软件的启动运行
 
 双击OpenQuant图标，经过短暂的启动加载，
 
@@ -97,7 +97,7 @@ OpenQuant 应用程序会被安装在标准的 Program Files \(x86\)\SmartQuant 
 
 
 
-###  2.6 OpenQuant配置国内期货交易通道
+###  <div id="2.6"></div>2.6 OpenQuant配置国内期货交易通道
 
 国内期货的主流通道是上期技术公司的CTP，我们使用QuantBoxCtpse  CTP插件连接期货经纪商的CTP交易通道。配置过程如下：
 
