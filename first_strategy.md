@@ -20,6 +20,7 @@ Project：项目
 
 选择新建SmartQuant Instrument Strategy Solution模式的解决方案
 
+
 |Solution的类型|说明|
 |--------|--------|
 |SmartQuant Instrument Strategy Solution|合约标的策略解决方案：为订阅的每个合约创建一个实例，每个实例处理一个合约的数据，互不干扰。|
